@@ -1,0 +1,51 @@
+body {
+  /* background: url('./images/bgr.jpg') repeat; */
+  background: url('./images/bgr1.jpg') repeat;
+  font-family: 'Harry Potter', sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #333;
+}
+
+@media (max-width:600px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+.header h1 {
+  margin: 0;
+  cursor: pointer;
+}
+
+.header input {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: x-large;
+  font-family: 'Harry Potter', sans-serif;
+}
+
+.spell {
+  padding: 10px;
+  border-bottom: 1px solid #333
+}
+
+.spell h2 {
+  margin: 0px;
+}
+
+.spell h4 {
+  margin: 5px 0 0 0;
+}
