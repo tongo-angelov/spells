@@ -35,6 +35,7 @@ body {
   border: none;
   font-size: x-large;
   font-family: 'Harry Potter', sans-serif;
+  text-align: center;
 }
 
 .spell {
@@ -44,6 +45,7 @@ body {
 
 .spell h2 {
   margin: 0px;
+  text-shadow: 1px 1px 0px #bbb;
 }
 
 .spell h4 {
